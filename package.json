@@ -1,0 +1,43 @@
+{
+  "name": "@refine-auth/auth0-react",
+  "version": "0.1.0",
+  "description": "Auth provider for refine with Auth0. refine is a React-based framework for building internal tools, rapidly. Auth0 is authentication service provider with lot of secure and easy to integrate authentication method.",
+  "type": "module",
+  "author": {
+    "name": "Hiren F",
+    "email": "hirenf14@gmail.com",
+    "url": "https://github.com/hirenf14"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "homepage": "https://github.com/hirenf14/refine-auth-auth0-react#readme",
+  "private": false,
+  "keywords": [
+    "refine",
+    "refinedev",
+    "auth0",
+    "auth provider",
+    "react"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hirenf14/refine-auth-auth0-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hirenf14/refine-auth-auth0-react/issues"
+  },
+  "peerDependencies": {
+    "@refinedev/core": "^4.28.2"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+  }
+}
